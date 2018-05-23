@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+#postcardContainer{
+    width: 600px;
+    height:400px;
+    background-color: white;
+    padding: 20px;
+    margin:200px auto;
+    }
+    
+    .flexboxContainers{
+        display: flex;
+    }
+    
+    .flexboxContainers div{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    h2{
+        font-size: 29px;
+        font-family:'Kaushan Script', cursive;
+    }
+    #toprightContainer{
+        text-align: right
+    }
+
+input{
+    width: 100%;
+    margin-bottom:5px;
+    border: none;
+    border-bottom:1px solid gray;
+    font-size: 29px
+}
+
+
+p{ margin:0;
+font-size: 21px;
+font-family: 'Pacifico', cursive;
+}
+
+#bottomContainer{text-align: center
+}
+
+#rightTextContainer{text-align: right}
+
+input::-webkit-input-placeholder{color: lightgray;
+font-family: 'Pacifico', cursive;
+}
+
+button{
+border: none;
+border-bottom: 1px solid black;
+margin:5px;
+padding: 1px;
+background-color:darkgrey;
+font-family: monospace;
+font-size: 20px;
+}
